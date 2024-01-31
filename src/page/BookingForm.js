@@ -6,13 +6,13 @@ const BookingForm = () => {
   const [formData, setFormData] = useState({
     movieName: '',
     otherDetail: '',
-    
+   
   });
 
   const { id } = useParams();
 
   useEffect(() => {
-    setFormData({ ...formData, movieName: `Movie ${id}` });
+    setFormData((prevData) => ({ ...prevData, movieName: `Movie ${id}` }));
   }, [id]);
 
   const handleFormSubmit = (e) => {
@@ -22,7 +22,7 @@ const BookingForm = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
   return (
