@@ -1,0 +1,100 @@
+
+.main-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  background: linear-gradient(to right, #007bff, #00bcd4);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.movie-details-container {
+  text-align: center;
+  background: linear-gradient(to right, #e6f7ff, #cce5ff);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.show-details-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-container {
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #d9ead3, #b3d6c6);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.show-details-info {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.image-container {
+  max-width: 40%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  background: linear-gradient(to right, #ffc0cb, #ffb6c1);
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.show-details-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.show-details-image:hover {
+  transform: scale(1.1);
+}
+
+.summary-container {
+  color: #333;
+  margin-top: 20px;
+  background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.booking-link {
+  text-decoration: none;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
